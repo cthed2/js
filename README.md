@@ -98,7 +98,7 @@ Puedes almacenar varias variables. Como una lista.
 ```
 
 ### Control de Flujo
-
+```
 if(condicion && condition){
 
 }
@@ -111,68 +111,56 @@ else{
 }
 
 parseInt(var_string) -> numeric
-
+```
 
 ### Bucle Do - while
-
+```
 Do{
 
 }while(condicion){
 
 }
-
+```
 ### For
-
+```
 for(var i=o; i < 10; i++){
 
 }
-
+```
 ### Funciones
 Crea:
+```
 function nombre_funcion(){
     // Codigo a ejecutar
 }
-
+```
 Ejecuta:
+```
 nombre_funcion()
-
+```
 Con Parametros:
+```
 function nombre_funcion(a,b,c){
 
 }
-
+```
 ### Introducción a Eventos
 Eventos más funciones, optinen su máxima potencialidad.
 
 Eventos: Desencadenantes de la accción. Permite interactuar con la pagina web.
 
-Eventos:
-onblur
-onchange
-onclick
-ondblclick
-onfocus
-onkeydown
-onkeypress
-onkeyup
-onload
-onmousedown
-onmousemove
-onmouseout
-onmouseover
-onmouseup
-onreset
-onresize
+Eventos: onblur, onchange, onclick, ondblclick, onfocus, onkeydown, onkeypress, onkeyup
+onload, onmousedown, onmousemove, onmouseout, onmouseover, onmouseup, onreset, onresize
 
 
 Ejemplo:
-
+```
 function aviso(){
     alert("aviso...");
 }
 
 <img src= "..." onClick="aviso()">
-
+```
 Dentro de la etiqueta de la imagen agrego el evneto onclick.
 
 
@@ -194,12 +182,12 @@ Esta tecnologia dota del comportamiento tipico de una aplicacion de escritorio.
 Puedes hacer varias peticiones en paralelo al servidor.
 
 Enviar petición por XMLHttpRequest:
-
+```
 var mi_var=new XLMHttpRequest();
-
+```
 Se comunica al servidor mediante peticiones tipo ulr, con los parametros indicados, luego el servidor lanza un respuesta y el cliente en este caso js modifica el DOM, en especifico que parte del DOM será modificado con la informaciónq ue envio el servidor.
 
-La respuesta viene en formato xml, json, etc.
+La respuesta viene en formato: xml, json, etc.
 
 #
 
