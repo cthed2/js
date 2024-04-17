@@ -80,21 +80,22 @@ Puedes almacenar varias variables. Como una lista.
 
 ### P.O.O.
 
- Caracteristicas(Tener) + Capacidades(poder hacer)
+ Caracteristicas(**Tener**) + Capacidades(**poder hacer**)
 
  Un objeto puede ser un boton. 
 
  Nomenclatura del PUNTO
-
+```
  NOMBRE_COCHE.COLOR="AZUL";
  NOMBRE_COCHE.ANCHO="2000";
 
  NOMBRE_COCHE.ACELERA();  // Con parentesis se dice la acción lo que puede hacer.
-
+```
  Ejemplo Boton:
 
+```
  boton.style.width="500px";
-
+```
 
 ### Control de Flujo
 
